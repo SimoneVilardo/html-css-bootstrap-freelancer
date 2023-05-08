@@ -101,6 +101,32 @@ h1{
 }
 /* FINE INFO */
 
+/* INIZIO SEZIONE ABOUT */
+.width-row{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.width-p{
+    margin: 20px auto;
+    font-size: 15px;
+}
+
+.pad-top-40{
+    padding-top: 40px;
+}
+
+.button-sec-about{
+    background-color: #1abc9c;
+    border: 1px solid white;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 6px;
+    margin: 20px 0 40px 0;
+}
+/* FINE SEZIONE ABOUT */
+
+
 /* INIZIO FOOTER */
 
 /* FINE FOOTER */
@@ -127,6 +153,10 @@ h1{
     
     h1{
         font-size: 50px;
+    }
+
+    .width-p{
+        width: 100%;
     }
 }
 /* MEDIA QUERY DESKTOP 960 */
