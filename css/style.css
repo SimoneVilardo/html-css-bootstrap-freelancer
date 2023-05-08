@@ -53,33 +53,46 @@ a{
 .back-second-color, .acqua{
    background-color: #1abc9c; 
 }
+
+h1{
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.dimension-img{
+    width: 200px;
+}
+
+.star{
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.pad-10{
+    padding: 10px 0 20px 0;
+    font-size: 20px;
+}
+
+
 /* INIZIO SEZIONE START BOOSTRAP */
 
 
-/* INIZIO PORTFOLIO */
-.violet {     
-    background-color: #ba4b63;    
-}      
- 
- .cyan {    
-    background-color: #1ea4b6;  
+/* INIZIO PORTFOLIO */  
+
+.portfolio-black {    
+    color: #000; 
+    padding: 30px 0; 
 }     
 
-.black {    
-    background-color: #000;  
-}     
+.img-portfolio{
+    width: 100%;
+    border-radius: 10px;
+}
 
-.lightblue{ 
-   background-color: #1c83c1;    
-}      
-
-.blue { 
-    background-color: #0e38b5;  
-}      
-
-.pink {   
-    background-color: #ccb2a3;  
-}      
+.margin-bottom-portfolio{
+    margin-bottom: 50px;
+}
+   
 /* FINE PORTFOLIO */
 
 /* INIZIO INFO */
@@ -101,5 +114,20 @@ a{
     .col-4{
         display: block;
     }
+
+    .container-page{
+        max-width: 80%;
+        margin: 0 auto;
+    }
 }
 /* FINE MEDIA QUERY TABLET 768 */
+
+/* MEDIA QUERY DESKTOP 960 */
+@media screen and (min-width: 960px) {
+    
+    h1{
+        font-size: 50px;
+    }
+}
+/* MEDIA QUERY DESKTOP 960 */
+
